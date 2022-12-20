@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro:wght@400;500;700;800;900&display=swap');
+
+/* font-families:
+'Maven Pro'
+'Gilda Display' */
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    background-color: #333;
+}
+
+.maven {
+    font-family: Maven Pro;
+}
+
+.gilda {
+    font-family: Gilda Display;
+}
+
+.font_lightgray {
+    color: #cccccc9c;
+}
+
+header div p:nth-child(1) {
+    font-size: 1.5rem;
+    text-shadow: 0rem 0rem .12rem;
+    width: 5rem;
+    letter-spacing: .2rem;
+    margin-left: .6rem;
+    margin-bottom: 8rem;
+    padding-top: .1rem;
+    padding-bottom: .5rem;
+}
+
+.company_name {
+    text-shadow: 0rem 0rem .1rem;
+    width: 19rem;
+    background-image: linear-gradient(to top right, #8507e1 10%, #194894 40%, #3dc8d5 85%);
+    margin: auto;
+}
+
+header div:nth-child(2):hover {
+    background-image: linear-gradient(to top right, #3dc8d5 10%, #194894 40%, #8507e1 95%);
+}
+li {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 4rem;
+    letter-spacing: .2rem;
+    margin-left: -3rem;
+}
+
+header div p:nth-child(2) {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.585);
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+}
+
+nav {
+    padding-bottom: 2rem;
+    padding-right: 1.5rem;
+    margin-top: 8rem;
+}
+
+nav a {
+    display: block;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-shadow: 0rem 0rem .12rem;
+    text-align: right;
+    padding-bottom: .5rem;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+article{
+    margin-left: 10rem;
+    margin-bottom: 19rem;
+    background-image: url("../img/article_bcg.svg");
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-size: 3.5rem;
+    text-shadow: 0rem 0rem .1rem rgba(51, 51, 51, 0.803);
+    margin-top: 15rem;
+    margin-bottom: 3rem;
+}
+
+article p {
+    font-size: 1.2rem;
+    width: 40vw;
+    color: rgba(51, 51, 51, 0.372);
+    text-shadow: 0rem 0rem .1rem rgba(51, 51, 51, 0.803);
+}
+
+article p:first-of-type {
+    margin-bottom: 1rem;
+}
+
+img {
+    display: block;
+    width: 75vw;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+img:first-of-type {
+    margin-top: 10rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+    text-shadow: 0rem 0rem .2rem rgba(51, 51, 51, 0.803);
+    color: rgba(0, 0, 0, 0.735);
+    letter-spacing: .1rem;
+    width: 75vw;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+section p {
+    text-transform: uppercase;
+    text-shadow: 0rem 0rem .1rem rgba(51, 51, 51, 0.803);
+    font-size: 1.1rem;
+    color: rgba(51, 51, 51, 0.078);
+    width: 75vw;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 2em;
+}
+
+
+
